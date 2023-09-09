@@ -65,7 +65,7 @@ git config --global user.email "youremail@mail.com"
 git init 							- initialize your local repository
 git status							- checks untracked files (files the computer does not know what to do with yet)
 git add . 							- adds the untracked files
-git commit -m							- commits
+git commit -m " "						- commits
 								- go to github and create repository
 git remote add origin <url>					- is to add your remote repository link
 git remote -v							- check what you added
