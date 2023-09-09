@@ -33,4 +33,8 @@ body{
 
 #button {
 	background-color: #FF0000;
+	margin-bottom: 10px;
 }
+#playaudio{
+
+	width: 300px;

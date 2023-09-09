@@ -1,0 +1,83 @@
+pwd (present working directory) - 	shows the current folder we are working on
+cd <folderName / path to folder> - 	(change directory) change the current folder/directory we are currently working on
+cd .. - 				change directory one folder up
+mkdir <folderName> - 			creates a new directory/folder
+
+Tip: You can also combined 2 commands. use && between commands :) (mkdir folder_name && cd folder_name)
+
+Open Sublime Text > File > Open Folder > 
+
+Right-click "fcbportfolio" > New File > type "index.html" > Save
+Right-click "fcbportfolio" > New File > type "index.css" > Save
+Right-click "fcbportfolio" > New Folder > name it "images"
+
+<div> creates a wrapper/container for our layout
+<class> is an attribute to name our <div>
+id is an attribute to name a <div> uniquely
+
+<h1> is a header and the number next to it is the text size
+<p> is a paragraph
+<img> creates an image and src="" to find the tragectory of the image
+<a> creates an anchor and "href" creates a hyperlink
+
+<a href="mailto:liamwm47@gmail.com" class = "btn btn-success btn-lg mt-3" id = "button">get the sharingan here</a>		- button
+
+https://fonts.google.com/ -		font styles and icons for css		- copy link inside <head> </head>
+https://www.svgbackgrounds.com/ - 	creates backgrounds			- copy link inside <head> </head>
+https://getbootstrap.com/ - 		makes the webpage interactive		- copy link inside <head> </head>, copy script at the end of the </body>
+https://getbootstrap.com/docs/5.3/utilities/colors/#colors 			- colors
+
+h1, p { (this targets all h1 and p, "*" targets all)
+	font-family: Monsterrat, sans-serif; -		changes the font
+	color: #FFFFFF; - 				changes font color
+}
+
+#profile {
+	height; 000px; 		- height of the image
+	width; 000px;		- width of the image
+	border-color: #FFFFFF; 	- changes border color
+	border-style: solid;	- adds a border and a border type
+	border-width: 5px;	- changes how thick the border is
+	border-radius: 0%; 	- softens the corners
+}
+
+body{
+	background-color: #330055;			- changes the web page colorS
+	background-image: url("copy url here");		- changes the web page background with an image
+	background-attachment: fixed;			- makes the web page background static (does not move or get stretched while zooming or scrolling)
+	background-size: cover;				- contain = the image is uploaded, cover = the image is uploaded and gets stretched to fill the entire web page
+}
+
+class="text-center mt-5" -		Moves the div class to the center and mt adds spacing from the top (used from bootstrap)
+
+#landing {
+	height: 80vh;			- 
+	display: flex;			- Puts the display in the middle
+	flex-direction: column;		- Puts the flex display on top of one another (column)
+	justify-content: center;	- Equal spaces of every content 
+	align-items: center;		- Align items vertically in the center
+}
+
+
+We use github to save our code
+git config --global user.name "username"
+git config --global user.email "youremail@mail.com"
+git init 							- initialize your local repository
+git status							- checks untracked files (files the computer does not know what to do with yet)
+git add . 							- adds the untracked files
+git commit -m							- commits
+								- go to github and create repository
+git remote add origin <url>					- is to add your remote repository link
+git remote -v							- check what you added
+generate new token classic through settings > developer settings > token
+check repo, admin:repo_hook, delete_repo
+git push origin master
+
+
+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			- make sure to copy the personal token, you may lose it forever
+
+go to fcbportfolio in github > settings > pages > set none to master > save > open page
+
+	<audio controls loop  id="playAudio">
+		<source src="bgm\rizz.mp3">
+	</audio>
